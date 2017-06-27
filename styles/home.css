@@ -1,0 +1,57 @@
+/*
+ * HOME
+*/
+.billboard {
+    background: center center no-repeat;
+    background-size: cover;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #fff;
+    height: 725px;
+    display: table;
+    width: 100%;
+    text-align: center;
+    padding: 90px 0 15px;
+}
+
+.billboard h1 {
+    text-transform: uppercase;
+}
+
+.billboard p {
+    margin-bottom: 30px;
+}
+
+/* Large devices (large desktops, 1200px and below) */
+@media (max-width: 1199px) {
+    .billboard {
+        font-size: 20px;
+        height: 600px;
+    }
+
+    .billboard p {
+        margin-bottom: 25px;
+    }
+}
+
+/* Medium devices (tablets, 991px and below) */
+@media (max-width: 991px) {
+    .billboard {
+        font-size: 18px;
+        height: 530px;
+    }
+}
+
+/* Small devices (mobile, 767px and below) */
+@media (max-width: 767px) {
+    .billboard {
+        font-size: 16px;
+        height: auto;
+        padding: 100px 0 40px;
+    }
+
+    .billboard p {
+        margin-bottom: 10px;
+    }
+}
